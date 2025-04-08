@@ -1,6 +1,88 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html {
+    background-color: darkgray;
 }
 
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #000000;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.landing-header {
+    width: 100%;
+    height: 10em;
+    padding: 5em;
+    font-size: 1em;
+    background-image:
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/bg-il-patio.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item {
+    height: 8em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5em 0;
+    padding: 0 1em;
+    background-color: rgba(210, 180, 140, 0.436);
+    border-radius: 0.5em;
+}
+
+.item img {
+    width: auto;
+    height: auto;
+    max-height: 8em;
+    max-width: 33%;
+    padding: 1em 0;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.item p {
+    margin: 0;
+    padding: 1em;
+    width: 33%;
+    font-size: 0.8em;
+}
+
+.roboto-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.roboto-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.text-address {
+    font-size: 0.8rem;
+}
+
+.logo-height {
+    height: 1.5rem;
+}
+
+.form-control::placeholder {
+    color: #707070;
+}
+
+.card-minheight {
+    min-height: 380px;
+}
+p {
+    min-height: 0.8rem;
+}
