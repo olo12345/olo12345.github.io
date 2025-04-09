@@ -164,3 +164,21 @@ p {
 .formulario {
     max-width: 1600px;
 }
+
+/* ==== Estilos para index.html ==== */
+
+/* 1) Títulos destacados */
+.cv-heading {
+    background-color: #e0e0e0;
+    border-radius: 0.5rem;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    color: black;              /* títulos en negro */
+  }
+  
+  /* 2) Centrar las listas en index.html */
+  .index-page ul.list-unstyled,
+  .index-page ol.list-unstyled {
+    text-align: center;
+  }
+  

@@ -2,118 +2,121 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/images/favicon-16.ico" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <!-- Mi CSS -->
-    <link rel="stylesheet" href="./assets/styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon-16.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
 </head>
 
-<body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-            <div class="container-fluid">
-                <img src="./assets/images/logo-32.png" class="logo-height" alt="Logo de un gatito naranjo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Resumen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./portafolio.html">Portafolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./landing-page.html">Primer Landing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./iguana-page.html">Iguana Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./cuppon.html">Cuppon</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <h1 class="bg-customgrey mb-0">Curriculum Vitae</h1>
-    </header>
+<body class="index-page d-flex flex-column min-vh-100">
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid">
+        <img src="./assets/images/logo-32.png" class="logo-height" alt="Logo de un gatito naranjo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="./index.html">Resumen</a></li>
+            <li class="nav-item"><a class="nav-link" href="./portafolio.html">Portafolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./landing-page.html">Primer Landing</a></li>
+            <li class="nav-item"><a class="nav-link" href="./iguana-page.html">Iguana Page</a></li>
+            <li class="nav-item"><a class="nav-link" href="./cuppon.html">Cuppon</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <main class="bg-customgrey">
+  <main class="bg-customgrey flex-grow-1 d-flex flex-column align-items-center text-center py-4">
 
-        <img src="./assets/images/portrait-kenji.jpg" alt="Foto de Kenji, un lindo gatito blanco y negro" width="285"
-            height="300">
+    <!-- Títulos con clase cv-heading -->
+    <h1 class="cv-heading mb-4">Curriculum Vitae</h1>
 
-        <h2>Kenji</h2>
+    <!-- Imagen circular centrada -->
+    <img src="./assets/images/portrait-kenji.jpg"
+      alt="Foto de Kenji, un lindo gatito blanco y negro"
+      width="285" height="285"
+      class="rounded-circle mx-auto d-block mb-4">
 
-        <section>
-            <h3>Resumen</h3>
+    <h2 class="cv-heading mb-5">Kenji</h2>
 
-            <p>Gatito con 4 meses de experiencia en vivir en apartamento. Conocimientos en maullar
-                cuando tiene hambre y jugar con su hermanito cuando está aburrido</p>
+    <!-- Sección Resumen -->
+    <section class="w-75 mb-5">
+      <h3 class="cv-heading mb-3">Resumen</h3>
+      <p>Gatito con 4 meses de experiencia en vivir en apartamento. Conocimientos en maullar cuando tiene hambre
+        y jugar con su hermanito cuando está aburrido.</p>
+    </section>
 
-            <h3>Datos Personales</h3>
+    <!-- Sección Datos Personales -->
+    <section class="w-75 mb-5">
+      <h3 class="cv-heading mb-3">Datos Personales</h3>
+      <ul class="list-unstyled">
+        <li><strong>Nombre:</strong> Kenji Monagas Montenegro</li>
+        <li><strong>Edad:</strong> 5 meses</li>
+        <li><strong>Fecha de nacimiento:</strong> Aproximadamente 20 de septiembre de 2024</li>
+        <li><strong>Correo:</strong> <a href="mailto:kenji2024@catmail.com">kenji2024@catmail.com</a></li>
+      </ul>
+    </section>
 
-            <ul>
-                <li>Nombre: Kenji Monagas Montenegro</li>
-                <li>Edad: 5 meses</li>
-                <li>Fecha de nacimiento: Aproximadamente 20 de septiembre de 2024</li>
-                <li>Correo: <a href="mailto:kenji2024@catmail.com">kenji2024@catmail.com</a></li>
-            </ul>
-        </section>
+    <!-- Sección Habilidades -->
+    <section class="w-75 mb-5">
+      <h3 class="cv-heading mb-3">Habilidades</h3>
+      <ul class="list-unstyled">
+        <li>Uso de arenero intermedio</li>
+        <li>Salto de muebles intermedio</li>
+        <li>Desestresar a padres avanzado</li>
+        <li>Estresar padres avanzado</li>
+        <li>Molestar a hermano básico</li>
+        <li>Trabajo en equipo</li>
+        <li>Capacidad para trabajar bajo presión</li>
+      </ul>
+    </section>
 
-        <section>
-            <h3>Habilidades</h3>
+    <!-- Sección Educación -->
+    <section class="w-75 mb-5">
+      <h3 class="cv-heading mb-3">Educación</h3>
+      <ol class="list-unstyled">
+        <li>Escuela de gatos callejeros 2024 - actualidad</li>
+        <li>Escuela de gatos de apartamento 2024 - actualidad</li>
+      </ol>
+    </section>
 
-            <ul>
-                <li>Uso de arenero intermedio</li>
-                <li>Salto de muebles intermedio</li>
-                <li>Desestresar a padres avanzado</li>
-                <li>Estresar padres avanzado</li>
-                <li>Molestar a hermano básico</li>
-                <li>Trabajo en equipo</li>
-                <li>Capacidad para trabajar bajo presión</li>
-            </ul>
-        </section>
+    <!-- Sección Experiencia -->
+    <section class="w-75 mb-5">
+      <h3 class="cv-heading mb-3">Experiencia</h3>
+      <ol class="list-unstyled mb-0">
+        <li>Escalar cortinas 2024 - actualidad</li>
+        <li>Viajes largos en canil 2024 - actualidad</li>
+      </ol>
+    </section>
 
-        <section>
-            <h3>Educación</h3>
-            <ol>
-                <li>Escuela de gatos callejeros 2024 - actualidad</li>
-                <li>Escuela de gatos de apartamento 2024 - actualidad</li>
-            </ol>
+  </main>
 
-        </section>
-        <h3>Experiencia</h3>
-        <ol class="mb-0">
-            <li>Escalar cortinas 2024 - actualidad</li>
-            <li>Viajes largos en canil 2024 - actualidad</li>
-        </ol>
-        <section>
-    </main>
-    <footer  class="text-center py-3 text-white mt-auto">
-        <p class="my-auto">&copy; 2025 Kenji. All rights reserved.</p>
-    </footer>
-    <!-- bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+  <footer class="text-center py-3 text-white bg-secondary">
+    <p class="mb-0">&copy; 2025 Kenji. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
