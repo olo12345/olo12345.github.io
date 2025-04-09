@@ -1,13 +1,18 @@
 html {
-    background-color: darkgray;
+    background-color: black;
 }
 
 body {
     min-height: 100vh;
     margin: 0 auto;
-    background-color: #000000;
+    background-color: #3c3c3c;
     color: white;
     font-family: "Raleway", sans-serif;
+}
+
+.fwidth {
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .landing-header {
@@ -28,6 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 2rem;
 }
 
 .item {
@@ -85,4 +91,76 @@ body {
 }
 p {
     min-height: 0.8rem;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.descripcion {
+    justify-content: space-between;
+}
+
+.descripcion img {
+    width: 399px;
+    height: 237px;
+    object-fit: cover;
+}
+
+.descripcion p {
+    width: 475px;
+    font-size: 16px;
+}
+
+.sect-caracteristicas {
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.icons i {
+    width: 30%;
+    text-align: center;
+}
+
+.icon-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+.icon-text p {
+    width: 30%;
+    text-align: center;
+}
+
+.fa-big {
+    font-size: 56px;
+}
+
+.galeria {
+    column-gap: 16px;
+    justify-content: center;
+}
+
+.galeria img {
+    height: 202px;
+    width: 316px;
+    object-fit: cover;
+}
+
+.bg-customgrey {
+    background-color: hsl(38, 22%, 10%);
+}
+
+.formulario {
+    max-width: 1600px;
 }
